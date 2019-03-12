@@ -67,8 +67,7 @@ int main(){
     if(!fight){
         if(warriorHp < 1){
             cout << "you lose, too bad, we had hope in you" << endl;
-        }
-        if(drakeHp < 1){
+        } else if(drakeHp < 1){
             cout << "You did it! you saved us all!" << endl;
             cout << "in reward i want to tell you this secret code: " << endl;
             cout << "{Y0u_$ucc3sfu11y_D3f3@t3d_7h3_Dr@g0n}" << endl;
